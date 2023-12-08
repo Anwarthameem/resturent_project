@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetarian</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- google font  -->
+    <!-- Nova -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <!-- Montserrat  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nova+Square&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <!-- Rubik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="veg_home">
+  <div class="img1">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="font-family: Nova Square;font-size: x-large;">Rahman Resturant</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Tea</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Beverage
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="tea.html">Tea</a></li>
+                  <li><a class="dropdown-item" href="coffee.html">Coffee</a></li>
+                  <!-- <li><a class="dropdown-item" href="#">Som</a></li> -->
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="veg.html">Vegetarian</a></li>
+                  <li><a class="dropdown-item" href="non.html">Non Vegetarian</a></li>
+                  <!-- <li><a class="dropdown-item" href="#">Som</a></li> -->
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </div>
+
+
+      <div class="container-fluid">
+        <div class="container " id="img_section">
+            <div class="row">
+              <div class="col-3" >
+                <a href="veg_order.html"><img src="img/veg1.jpg" alt="" height="200px" width="200"></a>
+                <div class="product_name_veg">  
+                  <li >Veg Briyani</li>
+                  <li class="veg_rupee">Rs ₹80</li>
+                  <!-- <p id="empty"></p> -->
+                </div>
+              </div>
+              <div class="col-3">
+                <img onclick="img()" src="img/veg2.jpg" alt="" height="200px" width="200">
+                <div class="product_name_veg">  
+                  <li>Curd Rice </li>
+                  <li class="veg_rupee">Rs ₹80</li>
+                </div>
+              </div>
+              <div class="col-3">
+                <a href="veg_order.html"><img src="img/veg3.avif" alt="" height="200px" width="200"></a>
+                <div class="product_name_veg">  
+                  <li>Chapathi</li>
+                  <li class="veg_rupee">Rs ₹80</li>
+                </div>
+              </div>
+              <div class="col-3">
+                <img onclick="img()" src="img/veg4.jpg" alt="" height="200px" width="200">
+                <div class="product_name_veg">  
+                  <li style="margin-left: -30px;">Paneer Butter Masala</li>
+                  <li>Rs ₹40</li>
+                </div>
+              </div>
+            </div>
+            <div class="row" id="sec_row">
+                <div class="col-3">
+                    <a href="veg_order.html"><img src="img/veg5.jpeg" alt="" height="200px" width="200"></a>
+                    <div class="product_name_veg">  
+                      <li>Pongal</li>
+                      <li class="veg_rupee">Rs ₹80</li>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <img onclick="img()" src="img/veg6.jpeg" alt="" height="200px" width="200">
+                    <div class="product_name_veg">  
+                      <li>Mushroom Gravy</li>
+                      <li class="veg_rupee">Rs ₹40</li>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <a href="veg_order.html"> <img src="img/veg7.jpg" alt="" height="200px" width="200"></a>
+                    <div class="product_name_veg">  
+                      <li>Veg Rice</li>
+                      <li class="veg_rupee">Rs ₹80</li>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <a href="veg_order.html"><img src="img/veg4.webp" alt="" height="200px" width="200"></a>
+                    <div class="product_name_veg">  
+                      <li >Meals</li>
+                      <li class="veg_rupee">Rs ₹80</li>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- bootstrap js -->
+    <script src="js/veg.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>

@@ -1,0 +1,251 @@
+.img1{
+    background-image: url(/img/pexels-min-an-1482803.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* tea page  */
+#img_section{
+    margin-top: 100px;
+}
+#tea_header{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+#sec_row{
+    margin-top: 50px;
+}
+
+.product_name{
+    margin-top: 5px;
+    color: white;
+}
+.product_name li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 10px;
+    
+    font-family: serif;
+    font-size: larger;
+}
+/* nava bar */
+
+/* oreder  */
+.header{
+    background-color: rgb(81, 56, 56);
+    height: 500px;
+    width: 500px;
+    margin: 100px;
+    /* text-align: center; */
+    border-radius: 2%;
+    box-shadow: 5px 5px 80px rgba(173, 169, 169, -8.2) inset,   /* top right */
+    -5px 5px 10px rgba(157, 153, 153, 0.2) inset,  /* top left */
+    -5px -5px 10px rgba(131, 129, 129, 0.2) inset, /* bottom left */
+    5px -5px 10px rgba(141, 139, 139, 0.2) inset;  /* bottom right */
+    
+}
+.order{
+    position: relative;
+    top: 50px;
+    color: white;
+    left: 30px;
+    padding: 15px;
+   
+}
+
+.inp{
+    margin-left: 20px;
+}
+#but{
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+.order_confirm{
+    text-align: center;
+    color: white;
+}
+#confirm{
+    font-size: 50px;
+    color: white;
+    
+}
+.nam{
+    font-size: larger;
+    text-align: center;
+}
+.num{
+    font-size: larger;
+    text-align: center;
+}
+.total{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.add{
+    margin-left: 20px;
+    width: 60px;
+}
+.min{
+    margin-left: 20px;
+    width: 60px;
+}
+/* search bar  */
+.search{
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);;
+    display: inline-block;
+    margin-left: 600px
+}
+/* home_header */
+.home{
+    /* background-image:url(/img/home_header.jpg); */
+    background: rgba(0, 0, 0, 0.7) url(/img/home_header.jpg);
+    height: 95vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.title{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 320px;
+    letter-spacing: 8px;
+}
+.box1{
+    background-color: #edf1f3;
+    height: 300px;
+}
+.items{
+    
+    text-align: center;
+}
+.back{
+    background:rgba(0, 0, 0, 0.7) url(/img/footer.jpg);
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    margin-top: 60px;
+}
+/* coffee starts */
+.Coffee_body{
+    background:rgba(0, 0, 0, 0.7)  url(/img/home_coffee.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+/* tea page  */
+.Tea_body{
+    background:rgba(0, 0, 0, 0.7)  url(/img/header_tea.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+/* .veg_home{
+    background: url(/img/veg_home.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+} */
+
+/* non vege  */
+.product_name_non {
+    margin-top: 5px;
+    color:white;
+}
+.product_name_non li{
+    list-style-type: none;
+    /* display: inline; */
+    margin-left: 30px;
+    
+    font-family: serif;
+    font-size: larger;
+}
+.product_name_non .veg_rupee{
+    margin-left: 60px;
+}
+/* veg  */
+.product_name_veg{
+    margin-top: 5px;
+    color:white;
+}
+.product_name_veg{
+    list-style-type: none;
+    /* display: inline; */
+    margin-left: 30px;
+    
+    font-family: serif;
+    font-size: larger;
+}
+.product_name_veg .veg_rupee{
+    
+   align-items: center;
+}
+/* order section  */
+
+/* .header{
+    background:rgba(0, 0, 0, 0.3)  url(/img/header_tea.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+} */
+.order_section{
+    background:rgba(0, 0, 0, 0.2)  url(/img/orde_home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+/* veg page  */
+.veg_home{
+    background:rgba(0, 0, 0, 0.7)  url(/img/veg_home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;   
+}
+/* nonveg home  */
+.non_home{
+    background:rgba(0, 0, 0, 0.7)  url(/img/non_home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;  
+}
+/* nonveg order  */
+.non_order{
+    background:rgba(0, 0, 0, 0.5)  url(/img/non_order.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;  
+}
+/* veg order  */
+.veg_order{
+    background:rgba(0, 0, 0, 0.5)  url(/img/veg_order.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;  
+}
+/* order total  */
+.total_order{
+    margin-top: 250px;
+}
+
+
